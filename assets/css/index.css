@@ -1,0 +1,15 @@
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-div {
+    margin-left: 20%;
+    min-height: 100px;
+}
