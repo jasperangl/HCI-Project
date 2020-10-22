@@ -11,5 +11,49 @@
 
 .contact-div {
     margin-left: 20%;
-    min-height: 100px;
+    max-height: 120px;
+}
+
+
+#first {
+    display: block;
+  }
+
+  #second {
+    display: none;
+  }
+
+@media screen and (max-width: 736px) {
+
+    .contact-div {
+        margin-left: 0px;
+        min-height: 170px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    #first {
+        display: none;
+    }
+
+    #second { 
+       display: block;   
+     }
+
+     .row {
+        flex-direction: column;  
+    }
+
+    .name {
+        font-weight: 500;
+        color: rgb(116, 116, 116);
+        padding-top: 3%
+    }
+
+    .contact-header h2 {
+        margin: 0 0 0 0;
+    }
+
 }
